@@ -27,6 +27,7 @@ RUN     apk add --no-cache --update bash aria2 darkhttpd && \
 WORKDIR /
 VOLUME ["/data"]
 VOLUME ["/conf"]
+VOLUME ["/html"]
 EXPOSE 6800
 EXPOSE 80
 EXPOSE 8080
